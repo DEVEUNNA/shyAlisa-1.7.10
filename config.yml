@@ -1,0 +1,49 @@
+essChat: false
+silent: false
+caps-ratio: 0.85
+symbol-ratio: 0.85
+chat-colors:
+    - 3
+    - d
+    - 6
+annihilation-immunity:
+    - Shyvana
+debug: false
+chat-color-warning: c
+chat-color-ok: a
+name1: '❤ Алиса'
+name2: Алисы
+name-color: b
+prefix: Помощница
+prefix-color: e
+main-world: world
+restart-period: 180
+tospawn-playernames:
+cooldown:
+    answers: 20
+    hello: 35
+    warn: 3000
+    votesun-global: 300
+    voteday-global: 300
+    votesun-personal: 600
+    voteday-personal: 600
+tempmute:
+    flood: 900
+    symbol-flood: 600
+    advertisement: 900
+    caps: 600
+    profanity: 1200
+    double-warn: 1800
+duration:
+    votesun: 20
+    voteday: 20
+success-ratio:
+    votesun: 0.6
+    voteday: 0.6
+success-advantage:
+    votesun: 2
+    voteday: 2
+
+
+mute-command: 'tempmute %s %s %s'
+warn-command: 'warn %s %s'
